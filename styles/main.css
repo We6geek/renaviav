@@ -20,6 +20,12 @@ header{
     font-size: 36px;
     color: #FFFFFF;
 }
+.about-h1{
+    font-family: 'Inder', sans-serif;
+    font-size: 36px;
+    color: #000000;
+    margin: 25px 0;
+}
 span{
     font-family: 'Inder', sans-serif;
     font-size: 36px;
@@ -212,7 +218,7 @@ h1{
 }
 .wu-block{
     width: 100%;
-    height: 600px;
+    height: 700px;
     background-image: url('https://res.cloudinary.com/daavbaof3/image/upload/v1682349387/Group_8wu-bg_new_l2qyan.png');
     background-size: cover;
     display: flex;
@@ -229,32 +235,64 @@ h1{
 .wu-hr{
     width: 400px;
     height: 1px;
+    background-color: #ffffff;
+}
+.wu-hr2{
+    width: 150px;
+    height: 1px;
     background-color: #000000;
 }
 .wu-wrapper{
     margin-top: 60px;
     display: grid;
     gap: 65px;
-    grid-template-columns: 200px 200px 200px;
-    grid-template-rows: 300px;
+    grid-template-columns: 350px 350px 350px;
+    grid-template-rows: 400px;
 }
 .card1,
 .card2,
 .card3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background: #FFFFFF;
     box-shadow: 0px 0px 25px 25px rgba(0, 0, 0, 0.3);
     border-radius: 25px;
-    background-image: url('/images/2736.jpg');
-    background-size: cover;
+    background-color: #FFFFFF;
+}
+.card-h2{
+    font-family: 'Inder', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    color: #000000;
+}
+.card-p{
+    font-family: 'Inder', sans-serif;
+    font-size: 16px;
+    width: 250px;
+    text-align: center;
+    color: #000000;
 }
 .bottom-block{
     width: 100%;
-    height: 655px;
+    height: 755px;
     background-color: #FFFFFF;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+.bottom-block_p{
+    font-family: 'Inder', sans-serif;
+    font-size: 16px;
+    width: 250px;
+    text-align: center;
+    color: #383838;
+    margin: 8px;
+}
+.bottom-block_p:hover{
+    color: #000000;
 }
 .bottom-hr{
     width: 400px;
@@ -269,7 +307,7 @@ h1{
 }
 .bottom-block_left-text{
     width: 450px;
-    height: 400px;
+    height: 500px;
     background: #FFFFFF;
     box-shadow: 0px 0px 25px 25px rgba(0, 0, 0, 0.15);
     border-radius: 25px;
@@ -277,10 +315,11 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 .bottom-block_right-text{
     width: 450px;
-    height: 400px;
+    height: 500px;
     background: #FFFFFF;
     box-shadow: 0px 0px 25px 25px rgba(0, 0, 0, 0.15);
     border-radius: 25px;
@@ -288,6 +327,7 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 p{
     font-family: 'Inder', sans-serif;
