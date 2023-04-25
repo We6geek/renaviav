@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Автобусные перевозки по территории РФ"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/main.css">
     <title>LineБилет | перевозки</title>
@@ -10,19 +11,25 @@
 <body>
     <header>
         <a href="https://google.com"><p class="logo"><span>Line</span>Билет</p></a>
-        <div class="presonal-bar">
-            <a href="https://google.com"><p class="personal-room">Личный кабинет</p></a>
-            <a href="https://google.com"><p class="contacts-btn">Контакты</p></a>
-        </div>
+        <section class="top-nav">
+            <input id="menu-toggle" type="checkbox" />
+            <label class='menu-button-container' for="menu-toggle">
+            <div class='menu-button'></div>
+          </label>
+            <ul class="menu">
+              <li><a href="https://google.com"><p class="personal-room">Личный кабинет</p></a></li>
+              <li><a href="https://google.com"><p class="contacts-btn">Контакты</p></a>              </li>
+            </ul>
+        </section>
     </header>
     <main>
         <div class="form-search">
             <input type="text" placeholder="Город отправления" class="input-1st">
-            <div class="change-circle" onclick=""><img src="./images/import_exportchange.png" class="form-change_img"></div>
+            <div class="change-circle" onclick=""><img alt="Смена направления" src="./images/import_exportchange.png" class="form-change_img"></div>
             <input type="text" placeholder="Город прибытия" class="input-2nd">
             <input type="date" placeholder="Дата отправления" class="input-3th">
             <input type="number" placeholder="Количество пассажиров" min="1" max="10" class="input-4th" id="input-4th">
-            <button type="submit">Искать<img src="./images/east.png" class="button-img"></button>
+            <button type="submit">Искать<img alt="Поиск" src="./images/east.png" class="button-img"></button>
         </div>
         <div class="about-block">
             <div class="about-wrapper">
@@ -36,7 +43,7 @@
                         </p>
                 </div>
                 <div class="about-wrapper_pic-right">
-                    <img src="./images/image 1about-pic.png" class="about-wrapper_img">
+                    <img alt="Наша компания" src="./images/image 1about-pic.png" class="about-wrapper_img">
                 </div>
             </div>
         </div>
@@ -71,14 +78,22 @@
             <div class="bottom-block_wrapper">
                 <div class="bottom-block_left-text">
                     <a href="https://google.com"><p class="bottom-block_p">Волгоград - Москва</p></a>
+                    <a href="https://google.com"><p class="bottom-block_p">Москва - Винница</p></a>
+                    <a href="https://google.com"><p class="bottom-block_p">Москва - Житомир</p></a>
+                    <a href="https://google.com"><p class="bottom-block_p">Москва - Кишинев</p></a>
                     <a href="https://google.com"><p class="bottom-block_p">Москва - Ростов</p></a>
+                    <a href="https://google.com"><p class="bottom-block_p">Киев - Москва</p></a>
                     <a href="https://google.com"><p class="bottom-block_p">Москва - Волгоград</p></a>
+                    <a href="https://google.com"><p class="bottom-block_p">Москва - Запорожье</p></a>
+                    <a href="https://google.com"><p class="bottom-block_p">Москва - Минск</p></a>
+                    <a href="https://google.com"><p class="bottom-block_p">Москва - Триасполь</p></a>
                     <a href="https://google.com"><p class="bottom-block_p">Москва - Астрахань</p></a>
                     <a href="https://google.com"><p class="bottom-block_p">Москва - Волгодонск</p></a>
-		    <a href="https://google.com"><p class="bottom-block_p">Астрахань - Москва</p></a>
-                    <a href="https://google.com"><p class="bottom-block_p">Волгоград - Ростов-на-Дону</p></a>
                 </div>
                 <div class="bottom-block_right-text">
+                    <a href="https://google.com"><p class="bottom-block_p">Москва - Киев</p></a>
+                    <a href="https://google.com"><p class="bottom-block_p">Москва - Одесса</p></a>
+                    <a href="https://google.com"><p class="bottom-block_p">Одесса - Москва</p></a>
                     <a href="https://google.com"><p class="bottom-block_p">Москва - Ростов-на-Дону</p></a>
                     <a href="https://google.com"><p class="bottom-block_p">Москва - Краснодар</p></a>
                     <a href="https://google.com"><p class="bottom-block_p">Ростов-на-Дону - Москва</p></a>
@@ -86,6 +101,8 @@
                     <a href="https://google.com"><p class="bottom-block_p">Москва - Симферополь</p></a>
                     <a href="https://google.com"><p class="bottom-block_p">Сочи - Севастополь</p></a>
                     <a href="https://google.com"><p class="bottom-block_p">Москва - Воронеж</p></a>
+                    <a href="https://google.com"><p class="bottom-block_p">Астрахань - Москва</p></a>
+                    <a href="https://google.com"><p class="bottom-block_p">Волгоград - Ростов-на-Дону</p></a>
                 </div>
             </div>
         </div>
