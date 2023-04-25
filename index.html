@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Автобусные перевозки по территории РФ"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/main.css">
+    <title>LineБилет | перевозки</title>
+</head>
+<body>
+    <header>
+        <a href="https://google.com"><p class="logo"><span>Line</span>Билет</p></a>
+        <section class="top-nav">
+            <input id="menu-toggle" type="checkbox" />
+            <label class='menu-button-container' for="menu-toggle">
+            <div class='menu-button'></div>
+          </label>
+            <ul class="menu">
+              <li><a href="https://google.com"><p class="personal-room">Личный кабинет</p></a></li>
+              <li><a href="https://google.com"><p class="contacts-btn">Контакты</p></a>              </li>
+            </ul>
+        </section>
+    </header>
+    <main>
+        <div class="form-search">
+            <input type="text" placeholder="Город отправления" class="input-1st">
+            <div class="change-circle" onclick=""><img alt="Смена направления" src="./images/import_exportchange.webp" class="form-change_img"></div>
+            <input type="text" placeholder="Город прибытия" class="input-2nd">
+            <input type="date" placeholder="Дата отправления" class="input-3th">
+            <input type="number" placeholder="Количество пассажиров" min="1" max="10" class="input-4th" id="input-4th">
+            <button type="submit">Искать<img alt="Поиск" src="./images/east.webp" class="button-img"></button>
+        </div>
+        <div class="about-block">
+            <div class="about-wrapper">
+                <div class="about-wrapper_text-left">
+                    <p class="about-h1"><span>Line</span>Билет</p></a>
+                    <div class="about-hr"></div>
+                    <p class="about-wrapper_p">это
+                        новая современная площадка по продаже билетов по России на комфортабельных автобусах! Наши менеджеры всегда готовы ответить на Ваши вопросы, также можете написать нам в telegram, Whats App или же просто позвонить на горячую линию! (кликабельная фраза “telegram”, “Whats App”,”горячую линию” - ссылку прикреплю в наш чат) 
+                        Надежные и проверенные перевозчики в компании с нашими опытными менеджерами гарантирует Вам безопасную поездку и соблюдение всех сроков.
+                        Приобретая билеты через нас Вы надежно защищены от мошенников и нечестных цен! 
+                        </p>
+                </div>
+                <div class="about-wrapper_pic-right">
+                    <img alt="Наша компания" src="./images/image-1about-pic.webp" class="about-wrapper_img">
+                </div>
+            </div>
+        </div>
+        <div class="wu-block">
+            <h1 class="wu-block_h1">Почему мы?</h1>
+            <div class="wu-hr"></div>
+            <div class="wu-wrapper">
+                <div class="card1">
+                    <h2 class="card-h2">Демократичные цены.</h2>
+                    <div class="wu-hr2"></div>
+                    <p class="card-p">У нас самые выгодные предложения, которыми Вы будете приятно удивлены. 
+                    </p>
+                </div>
+                <div class="card2">
+                    <h2 class="card-h2">Гарантия перевозчиков и оплаты.</h2>
+                    <div class="wu-hr2"></div>
+                    <p class="card-p"> У нас только проверенные перевозчики, которые соответствуют всем требованиям качества. Все оплаты происходят по защищенным соединениям, поэтому никаких Ваших данных о картах или счетах не сохраняется.
+                    </p>
+                </div>
+                <div class="card3">
+                    <h2 class="card-h2">Постоянная связь.</h2>
+                    <div class="wu-hr2"></div>
+                    <p class="card-p">Круглосуточная поддержка и квалифицированные специалисты всегда помогут найти ответы на все ваши вопросы и помочь со всеми трудностями.
+
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="bottom-block">
+            <h1>Популярные направления</h1>
+            <div class="bottom-hr"></div>
+            <div class="bottom-block_wrapper">
+                <div class="bottom-block_left-text">
+                    <a href="https://google.com"><p class="bottom-block_p">Волгоград - Москва</p></a>
+                    <a href="https://google.com"><p class="bottom-block_p">Москва - Винница</p></a>
+                    <a href="https://google.com"><p class="bottom-block_p">Москва - Житомир</p></a>
+                    <a href="https://google.com"><p class="bottom-block_p">Москва - Кишинев</p></a>
+                    <a href="https://google.com"><p class="bottom-block_p">Москва - Ростов</p></a>
+                    <a href="https://google.com"><p class="bottom-block_p">Киев - Москва</p></a>
+                    <a href="https://google.com"><p class="bottom-block_p">Москва - Волгоград</p></a>
+                    <a href="https://google.com"><p class="bottom-block_p">Москва - Запорожье</p></a>
+                    <a href="https://google.com"><p class="bottom-block_p">Москва - Минск</p></a>
+                    <a href="https://google.com"><p class="bottom-block_p">Москва - Триасполь</p></a>
+                    <a href="https://google.com"><p class="bottom-block_p">Москва - Астрахань</p></a>
+                    <a href="https://google.com"><p class="bottom-block_p">Москва - Волгодонск</p></a>
+                </div>
+                <div class="bottom-block_right-text">
+                    <a href="https://google.com"><p class="bottom-block_p">Москва - Киев</p></a>
+                    <a href="https://google.com"><p class="bottom-block_p">Москва - Одесса</p></a>
+                    <a href="https://google.com"><p class="bottom-block_p">Одесса - Москва</p></a>
+                    <a href="https://google.com"><p class="bottom-block_p">Москва - Ростов-на-Дону</p></a>
+                    <a href="https://google.com"><p class="bottom-block_p">Москва - Краснодар</p></a>
+                    <a href="https://google.com"><p class="bottom-block_p">Ростов-на-Дону - Москва</p></a>
+                    <a href="https://google.com"><p class="bottom-block_p">Краснодар - Москва</p></a>
+                    <a href="https://google.com"><p class="bottom-block_p">Москва - Симферополь</p></a>
+                    <a href="https://google.com"><p class="bottom-block_p">Сочи - Севастополь</p></a>
+                    <a href="https://google.com"><p class="bottom-block_p">Москва - Воронеж</p></a>
+                    <a href="https://google.com"><p class="bottom-block_p">Астрахань - Москва</p></a>
+                    <a href="https://google.com"><p class="bottom-block_p">Волгоград - Ростов-на-Дону</p></a>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="contacts">
+            <p class="footer-p">Наши контакты</p>
+            <p class="footer-p">
+                e-mail@mail.com
+            </p>
+            <p class="footer-p">
+                e-mail@mail.com
+            </p>
+            <p class="footer-p">
+                8(987)654-32-21
+            </p>
+        </div>
+        <div class="footer-logo">
+            <a href="https://google.com"><p class="footer-logo"><span>Line</span>Билет</p></a>
+        </div>
+        <div class="socials">
+            <a href="https://google.com"><div class="social-item1" alt="Whatsapp"></div></a>
+            <a href="https://google.com"><div class="social-item2" alt="Telegram"></div></a>
+            <a href="https://google.com"><div class="social-item3" alt="Горячая линия"></div></a>
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+	$('.input-4th').change(function(){
+		if (+$(this).attr('max') < $(this).val()) {
+			$(this).val($(this).attr('max'));
+		}
+	});
+});
+    </script>
+</body>
+</html>
